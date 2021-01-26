@@ -1,0 +1,57 @@
+<style>
+	body {
+  background-color: lightpink;
+}
+h1 {
+		color: white;
+		text-align: center;
+	}
+h1 {
+		font-family: sofia, sans-serif;
+		font-size: 60px;
+	}
+p {
+	color: white;
+	text-align: center;
+}
+p {
+	font-family: "Inria-Serif"; 
+	font-size: 40px;
+}
+</style>
+* {
+  box-sizing: border-box;
+}
+
+header,
+main {
+  width: 80%;
+  margin: 40px auto;
+}
+
+.news {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.news .left {
+  flex: 10;
+}
+.news .right {
+  flex: 10;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery div {
+  border: 10px solid white;
+}
+img {
+  width: 100%;
+}
+
+.gallery div {
+  flex: 30%;
+}
+
